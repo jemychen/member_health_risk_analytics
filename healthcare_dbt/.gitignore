@@ -1,4 +1,18 @@
+# Environment variables
+.env
 
-target/
-dbt_packages/
-logs/
+# Virtual environment
+healthcare-env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# dbt
+healthcare_dbt/target/
+healthcare_dbt/dbt_packages/
+healthcare_dbt/logs/
+
+# OS files
+.DS_Store
