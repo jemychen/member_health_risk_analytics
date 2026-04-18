@@ -20,6 +20,7 @@ Raw Data and Staging in Databricks
 
 
 Streamlit Dashboard Final Results
-<img width="1419" height="772" alt="image" src="https://github.com/user-attachments/assets/f09726a7-6739-497f-a150-a2d77146b62e" />
-<img width="1391" height="683" alt="image" src="https://github.com/user-attachments/assets/220e3161-1c27-465e-9ac2-87d5b040d7d6" />
-<img width="1359" height="750" alt="image" src="https://github.com/user-attachments/assets/a9ef56dd-a44d-4a8d-b40c-a5ca93975f14" />
+<img width="1346" height="359" alt="image" src="https://github.com/user-attachments/assets/701142ef-e00e-4d2e-bf1a-9b48e5387025" />
+<img width="1350" height="521" alt="image" src="https://github.com/user-attachments/assets/84694d9d-3fd3-4783-b1cb-e9578cda8ba8" />
+<img width="1352" height="500" alt="image" src="https://github.com/user-attachments/assets/9ecbad5d-979b-42b4-bccf-af1841f5cf98" />
+<img width="1344" height="520" alt="image" src="https://github.com/user-attachments/assets/3e8e4dd2-042a-4314-9ddd-d0b363c38c16" />
