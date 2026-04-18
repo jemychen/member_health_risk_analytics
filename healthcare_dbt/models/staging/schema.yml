@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_cms_beneficiary
+    description: "Cleaned and standardized CMS beneficiary data"
+    columns:
+      - name: beneficiary_id
+        description: "Unique beneficiary identifier"
+        tests:
+          - unique
+          - not_null
+      - name: gender
+        description: "Beneficiary gender"
+        tests:
+          - accepted_values:
+              values: ['Male', 'Female', 'Unknown']
+      - name: birth_date
+        tests:
+          - not_null
