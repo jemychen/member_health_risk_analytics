@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: fct_member_risk
+    description: "Gold layer member risk scores based on age, ESRD status and enrollment"
+    columns:
+      - name: beneficiary_id
+        description: "Unique beneficiary identifier"
+        tests:
+          - unique
+          - not_null
+      - name: risk_score
+        description: "Calculated risk score"
+        tests:
+          - not_null
+      - name: risk_tier
+        description: "Risk categorization"
+        tests:
+          - accepted_values:
+              values: ['High Risk', 'Medium Risk', 'Low Risk']
